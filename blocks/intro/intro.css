@@ -4,8 +4,16 @@
   align-items: start;
   font-family: 'Inter', Arial, sans-serif;
   padding: 0;
-  max-width: 690px;
-  margin: 0 148px 0;
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 0 294px 0 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .intro {
+    margin: 0 48px 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 984px) {

@@ -1,10 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: 46% 48.5%;
-  /*grid-template-columns: 46.74% 49.18%;*/
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1.045fr;
   row-gap: 48px;
-  width: 100%;
   column-gap: 40px;
   margin: 0 0 80px;
   padding: 0;
@@ -30,8 +27,8 @@
 @media screen and (max-width: 568px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-template-rows: auto;
-    margin: 0 0 50px;
     row-gap: 32px;
+    grid-template-rows: auto;
+    margin: 0 auto 50px;
   }
 }

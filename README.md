@@ -10,3 +10,7 @@ HTML, CSS
 ## Автор  
 
 Ковалёв Максим
+
+## Ссылка:
+
+https://github.com/Batteryxv88/russian-travel
