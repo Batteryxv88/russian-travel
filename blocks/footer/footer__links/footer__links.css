@@ -7,10 +7,15 @@
 
 @media screen and (max-width: 568px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
-    justify-content: start;
     width: 186px;
+    padding-right: 274px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .footer__links {
     margin: 0 16px 0;
+    padding: 0;
   }
 }

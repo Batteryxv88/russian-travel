@@ -30,6 +30,13 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    max-width: 460px;
+    margin: 64px auto 0;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .footer {
     margin: 64px 0 0;
   }
 }

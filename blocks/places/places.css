@@ -17,8 +17,15 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 0 24px 0;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .places {
+    padding: 0;
     display: grid;
     row-gap: 50px;
     min-width: 320px;

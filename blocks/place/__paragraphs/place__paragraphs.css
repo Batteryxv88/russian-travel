@@ -4,13 +4,12 @@
   row-gap: 25px;
   align-self: start;
   justify-self: start;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 690px) {
   .place {
     width: max(260px, min(100%));
-    margin: 0;
   }
 }
 
